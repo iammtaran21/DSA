@@ -1,4 +1,4 @@
-This code defines a binary tree data structure and provides a way to print the nodes of the tree in inorder traversal. Here's a step-by-step breakdown:
+This code in the InOrder.java file defines a binary tree data structure and provides a way to print the nodes of the tree in inorder traversal. Here's a step-by-step breakdown:
 
 The Node class is defined with an integer key and references to the left and right child nodes. The constructor initializes the key value and sets the left and right children to null.
 
