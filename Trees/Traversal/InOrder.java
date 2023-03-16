@@ -6,9 +6,10 @@ class Node{
          left =right=null;
         }
     }
-class BinaryTree {
+    
+class BinaryTree_IN {
     Node root;
-    BinaryTree() {root=null;}
+    BinaryTree_IN() {root=null;}
     void printInorder(Node node)
     {
         if (node==null)
@@ -26,7 +27,7 @@ class BinaryTree {
 
     //Driver code
     public static void main(String[] args) {
-        BinaryTree tree=new BinaryTree();
+        BinaryTree_IN tree=new BinaryTree_IN();
         tree.root=new Node(1);
         tree.root.left=new Node(2);
         tree.root.right=new Node(3);
